@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Scenery</string>
+    <string name="introduction">简介</string>
+    <string name="about">关于</string>
 </resources>
