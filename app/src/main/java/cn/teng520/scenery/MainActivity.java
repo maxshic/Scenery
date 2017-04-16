@@ -1,7 +1,7 @@
 package cn.teng520.scenery;
 
 import android.content.Intent;
-import android.support.v7.app.AlertDialog;
+import android.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,8 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.app.Activity;
 
-public class MainActivity extends AppCompatActivity    {
+public class MainActivity extends Activity    {
     private ListView photoListView;
 
     @Override
@@ -44,9 +45,9 @@ public class MainActivity extends AppCompatActivity    {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
-            case R.id.intro_item:
-                showIntroduction();
-                return true;
+            /*case R.id.intro_item:
+                //showIntroduction();
+                return true;*/
             case R.id.about_item:
                 showAbout();
                 return true;
@@ -63,6 +64,6 @@ public class MainActivity extends AppCompatActivity    {
                 .show();
     }
 
-    private void showIntroduction() {
-    }
+    /*private void showIntroduction() {
+    }*/
 }

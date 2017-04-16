@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">Scenery</string>
-    <string name="introduction">简介</string>
+    <string name="app_name">最美景点</string>
+    <!--<string name="introduction">简介</string>-->
     <string name="about">关于</string>
     <string name="about_message">
-        关于校园风光\n\n
-        版本：1.0\n
-        开发：Z09414228\n
-        版权：2017，CSLG
+        最美景点\n
+        版本：1.0\n\n
+        作者：石冲\n
+        学号：Z09414228\n
+        版权（C）2017 常熟理工学院
     </string>
 </resources>

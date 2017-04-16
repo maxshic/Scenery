@@ -20,8 +20,8 @@ public class PhotoListAdapter extends BaseAdapter {
         this.context=context;
         names=context.getResources().getStringArray(R.array.photo_names);
         icons=new int[]{
-                R.drawable.i1,R.drawable.i2,R.drawable.i3,R.drawable.i4,R.drawable.i5,
-                R.drawable.i6,R.drawable.i7,R.drawable.i8,R.drawable.i9,R.drawable.i10
+                R.drawable.s1,R.drawable.s2,R.drawable.s3,R.drawable.s4,R.drawable.s5,
+                R.drawable.s6,R.drawable.s7,R.drawable.s8,R.drawable.s9,R.drawable.s10
         };
     }
 
