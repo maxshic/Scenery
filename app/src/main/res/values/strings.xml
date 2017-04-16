@@ -2,4 +2,10 @@
     <string name="app_name">Scenery</string>
     <string name="introduction">简介</string>
     <string name="about">关于</string>
+    <string name="about_message">
+        关于校园风光\n\n
+        版本：1.0\n
+        开发：Z09414228\n
+        版权：2017，CSLG
+    </string>
 </resources>

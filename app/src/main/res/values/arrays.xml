@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="photo_names">
+        <item>逸夫图书馆</item>
+        <item>敏行楼</item>
+        <item>行政楼</item>
+        <item>学道楼</item>
+        <item>东南大学生活动中心</item>
+        <item>东南教学楼</item>
+        <item>闻道楼</item>
+        <item>东南操场</item>
+        <item>近悦亭</item>
+        <item>校史馆</item>
+    </string-array>
+</resources>
