@@ -2,7 +2,6 @@ package cn.teng520.scenery;
 
 import android.content.Intent;
 import android.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,7 +18,7 @@ public class MainActivity extends Activity    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
         photoListView=(ListView)findViewById(R.id.photo_list);
-        PhotoListAdapter adapter=new PhotoListAdapter(this);
+        PlacesAdapter adapter=new PlacesAdapter(this);
         photoListView.setAdapter(adapter);
         photoListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -31,7 +30,7 @@ public class MainActivity extends Activity    {
     }
 
     private void showPhoto(int i) {
-        Intent intent=new Intent(this,PhotoActivity.class);
+        Intent intent=new Intent(this,PlacesActivity.class);
         intent.putExtra("photoIndex",i);
         startActivity(intent);
     }

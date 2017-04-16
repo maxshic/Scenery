@@ -12,11 +12,11 @@ import android.widget.TextView;
  * Created by Lenovo on 2017/4/16.
  */
 
-public class PhotoListAdapter extends BaseAdapter {
+public class PlacesAdapter extends BaseAdapter {
     private Context context;
     private String[] names;
     private int[] icons;
-    public PhotoListAdapter(Context context) {
+    public PlacesAdapter(Context context) {
         this.context=context;
         names=context.getResources().getStringArray(R.array.photo_names);
         icons=new int[]{
@@ -42,7 +42,7 @@ public class PhotoListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View itemView= LayoutInflater.from(context).inflate(R.layout.photo_item,null);
+        View itemView= LayoutInflater.from(context).inflate(R.layout.place_item,null);
         ImageView iconImageView=(ImageView)itemView.findViewById(R.id.icon_image);
         TextView nameTextView=(TextView)itemView.findViewById(R.id.name_text);
         iconImageView.setImageResource(icons[position]);

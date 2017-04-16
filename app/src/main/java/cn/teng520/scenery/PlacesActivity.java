@@ -1,13 +1,12 @@
 package cn.teng520.scenery;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.app.Activity;
 
-public class PhotoActivity extends Activity {
+public class PlacesActivity extends Activity {
     private String[] names;
     private String[] intros;
     private int[] photos;
@@ -19,7 +18,7 @@ public class PhotoActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getActionBar().setDisplayHomeAsUpEnabled(true);
-        setContentView(R.layout.photo_activity);
+        setContentView(R.layout.place_activity);
         names=getResources().getStringArray(R.array.photo_names);
         intros=getResources().getStringArray(R.array.intro_names);
         photos=new int[]{
